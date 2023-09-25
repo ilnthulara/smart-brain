@@ -11,23 +11,6 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
 import './App.css';
 
-//You must add your own API key here from Clarifai.
-const app = new Clarifai.App({
- apiKey: 'YOUR API KEY'
-});
-
-// No Longer need this. Updated to particles-bg
-// const particlesOptions = {
-//   particles: {
-//     number: {
-//       value: 30,
-//       density: {
-//         enable: true,
-//         value_area: 800
-//       }
-//     }
-//   }
-// }
 const initialState = {
   input: '',
   imageUrl: '',
